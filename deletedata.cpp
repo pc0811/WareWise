@@ -170,7 +170,7 @@ void deletedata::lastclicked(){
 }
 void deletedata::setRootUrlForWarehouse()
 {
-    database.setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Warehouse/");
+    database.setDataRootUrl("url for WAREHOUSE");
 
 
 
@@ -182,68 +182,9 @@ void deletedata::setRootUrlForWarehouse()
 
 }
 
-void deletedata::setRootUrlForArwade()
-{
-    database.setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Arwade");
-
-
-
-    emit hideprevwindow();
-    QStringList lastkey = setkeydata();
-     lastval = lastkey.last();
-    i=lastkey.length()-1;
-
-    display(lastval);
-}
-
-void deletedata::setRootUrlForKrishna()
-{
-    database.setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Krishna");
-
-
-
-    emit hideprevwindow();
-    QStringList lastkey = setkeydata();
-     lastval = lastkey.last();
-    i=lastkey.length()-1;
-
-    display(lastval);
-}
-
 void deletedata::setRootUrlForOthers()
 {
-    database.setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Other");
-
-
-
-
-    emit hideprevwindow();
-    QStringList lastkey = setkeydata();
-     lastval = lastkey.last();
-    i=lastkey.length()-1;
-
-    display(lastval);
-}
-
-void deletedata::setRootUrlForUnknown()
-{
-    database.setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Unknown");
-
-
-
-
-    emit hideprevwindow();
-    QStringList lastkey = setkeydata();
-     lastval = lastkey.last();
-    i=lastkey.length()-1;
-
-    display(lastval);
-}
-
-
-void deletedata::setRootUrlForOffice()
-{
-    database.setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Office");
+    database.setDataRootUrl("url for OTHER");
 
 
 
