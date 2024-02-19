@@ -293,44 +293,19 @@ void DataDisplayWindow::downloadCsv(){
         exportToCsv(filePath, tableView);
     }
 }
-void DataDisplayWindow::setRootUrlForWarehouse()
+void datadisplay1::setRootUrlForWarehouse()
 {
-    database->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Warehouse/");
+    database->setDataRootUrl("YOUR DATABASE LINK FOR WAREHOUSE");
     emit hideprevwindow();
     display();
 }
 
-void DataDisplayWindow::setRootUrlForArwade()
-{
-    database->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Arwade/");
-    emit hideprevwindow();
-    display();
-}
 
-void DataDisplayWindow::setRootUrlForKrishna()
-{
-    database->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Krishna/");
-    emit hideprevwindow();
-    display();
-}
 
-void DataDisplayWindow::setRootUrlForOthers()
+void datadisplay1::setRootUrlForOthers()
 {
-    database->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Other/");
-    emit hideprevwindow();
-    display();
-}
-
-void DataDisplayWindow::setRootUrlForUnknown()
-{
-    database->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Unknown/");
-    emit hideprevwindow();
-    display();
-}
-
-void DataDisplayWindow::setRootUrlForOffice()
-{
-    database->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Office/");
+    database->setDataRootUrl("YOUR DATABASE LINK FOR OTHER LOC
+        ");
     emit hideprevwindow();
     display();
 }
