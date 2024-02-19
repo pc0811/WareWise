@@ -393,59 +393,19 @@ void DataDisplayWindow1::downloadCsv()
     }
 }
 
-void DataDisplayWindow1::setRootUrlForWarehouse()
+void datadisplay1::setRootUrlForWarehouse()
 {
-    database1->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Warehouse/");
-    db2->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Outward/Warehouse/");
-
-
-    emit hideprevwindow();
-    display();
-}
-
-void DataDisplayWindow1::setRootUrlForArwade()
-{
-    database1->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Arwade/");
-    db2->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Outward/Mill/Arwade/");
-
-    emit hideprevwindow();
-    display();
-}
-
-void DataDisplayWindow1::setRootUrlForKrishna()
-{
-    database1->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Krishna/");
-    db2->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Outward/Mill/Krishna/");
-
-    emit hideprevwindow();
-    display();
-}
-
-void DataDisplayWindow1::setRootUrlForOthers()
-{
-    database1->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Other/");
-    db2->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Outward/Mill/Other/");
-
-    emit hideprevwindow();
-    display();
-}
-
-void DataDisplayWindow1::setRootUrlForUnknown()
-{
-    database1->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Unknown/");
-    db2->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Outward/Unknown/");
-
+    database->setDataRootUrl("YOUR DATABASE LINK FOR WAREHOUSE");
     emit hideprevwindow();
     display();
 }
 
 
-void DataDisplayWindow1::setRootUrlForOffice()
+
+void datadisplay1::setRootUrlForOthers()
 {
-    database1->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Office/");
-    db2->setDataRootUrl("https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Outward/Office/");
-
-
+    database->setDataRootUrl("YOUR DATABASE LINK FOR OTHER LOC
+        ");
     emit hideprevwindow();
     display();
 }
