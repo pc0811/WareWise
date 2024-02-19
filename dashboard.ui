@@ -208,7 +208,7 @@
      </font>
     </property>
     <property name="text">
-     <string>   DESIGNED FOR SURESH KUMAR SATISH KUMAR</string>
+     <string>   your inventory manager</string>
     </property>
    </widget>
    <widget class="QLabel" name="whreport">
