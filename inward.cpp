@@ -139,22 +139,8 @@ void inward::onInsertClicked(){
     //ui->Insert->setVisible(false);
 
     if (dep == "W" || dep == "w") {
-        depositUrl = "https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Warehouse";
+        depositUrl = "eNTER URL ";
         freight = 23.2;
-    } else if (dep == "U" || dep == "u") {
-        depositUrl = "https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Unknown";
-    }else if (dep == "K" || dep == "k") {
-        depositUrl = "https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Krishna";
-        freight = 19.75;
-    } else if (dep == "A" || dep == "a") {
-        depositUrl = "https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Arwade";
-        freight = 19.75;
-    } else if (dep == "OM" || dep == "om" || dep == "Om" || dep == "Other" || dep == "other" || dep == "O" || dep == "o") {
-        depositUrl = "https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Mill/Other";
-        freight =19.75;
-    } else if (dep == "OF" || dep == "of" || dep == "Of" || dep == "S" || dep == "s" || dep == "SKSK" || dep == "Office") {
-        depositUrl = "https://suresh-kumar-satish-kumar-default-rtdb.asia-southeast1.firebasedatabase.app/Inward/Office";
-        freight = 18.25;
     } else {
         QMessageBox::information(this, "ERROR", "ENTER CORRECT DEPOSIT CODE");
         return;
