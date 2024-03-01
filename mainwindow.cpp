@@ -21,7 +21,6 @@ MainWindow::MainWindow(QWidget *parent)
 
 
     // Set the API key during program initialization
-    //AIzaSyCUHslYfo5nXGKbf_uron1VzsAl6k0cRs4
     QString apiKey = "YOUR API KEY";
     skQtAuth.setApiKey(apiKey);
 }
